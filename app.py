@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 
 # Download nltk resources (only once)
 nltk.download('punkt')
-nltk.download("punkt")
+nltk.download("punkt_tab")
 nltk.download('stopwords')
 nltk.download('wordnet')
 
@@ -67,3 +67,4 @@ if st.button("Predict"):
             st.success("✅ YES – Mental health issue detected")
         else:
             st.info("❌ NO – Mental health issue not detected")
+
